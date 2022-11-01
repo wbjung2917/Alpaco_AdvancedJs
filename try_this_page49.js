@@ -54,7 +54,6 @@ const kim = {
 };
   
 const newKim = copyObjectDeep(kim);
-console.log(newKim);
 newKim.addr = 'Daegu';
 newKim.oo.name = 'Kim';
 newKim.arr[0] = 100;
